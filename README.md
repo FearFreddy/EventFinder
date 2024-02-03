@@ -1,7 +1,8 @@
-# stuttgart-events
+# Event Finder App
 
-This template should help get you started developing with Vue 3 in Vite.
+Built with Vue 3 in Vite.
 
+You need a private token from the EventBrite API (https://www.eventbrite.com/platform/api), that you have to provide in an .env file, just like suggested in the .env.install file.
 
 ## Customize configuration
 

@@ -5,10 +5,11 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div class="wrapper">
-      <h1>Find events in</h1>
+      <h1>Find events in and around...</h1>
       <nav>
         <RouterLink to="/">Stuttgart</RouterLink>
         <RouterLink to="/offenburg">Offenburg</RouterLink>
+        <RouterLink to="/berlin">Berlin</RouterLink>
       </nav>
     </div>
   </header>
