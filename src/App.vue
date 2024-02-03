@@ -38,6 +38,7 @@ nav {
 
 nav a.router-link-exact-active {
   color: white;
+  font-weight: bold;
 }
 
 nav a.router-link-exact-active:hover {
@@ -46,8 +47,8 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  min-width: 130px;
-  padding: 0 1rem;
+  min-width: 100px;
+  padding: .75rem 1.25rem;
   border-left: 1px solid var(--color-border);
 }
 
@@ -75,7 +76,7 @@ nav a:first-of-type {
     text-align: center;
     font-size: 1rem;
 
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
     margin-top: 1rem;
   }
 }

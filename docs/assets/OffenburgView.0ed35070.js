@@ -1,0 +1,1 @@
+import{o as e,c as t,_ as r}from"./index.fd98c58a.js";const _={__name:"OffenburgView",setup(n){return(a,s)=>(e(),t(r,{url:"https://www.eventbrite.de/d/germany--offenburg/events--this-weekend/?bbox=6.816868203657236%2C47.6280635483013%2C8.673557656782236%2C49.27825029082132&page="}))}};export{_ as default};

@@ -60,6 +60,15 @@ onMounted(() => {
   <main>
     <div v-if="loading" class="loading-spinner">
       <div class="spin"></div>
+      <h3>
+        Scraping events, this could take some seconds. <br/>
+        <span class="alert">
+          You will need to allow CORS in your browser for this to work, for example by using 
+          <a target="_blank" href="https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf">
+            this extension
+          </a>
+        </span>
+      </h3>
     </div>
     <div v-if="!loading && !events">
       No events
@@ -83,11 +92,16 @@ main {
   padding-top: 20px;
 }
 .loading-spinner {
-  height: 50px;
+  height: 150px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
+}
+.alert {
+  color: red;
 }
 @keyframes spinner {
   0% {
