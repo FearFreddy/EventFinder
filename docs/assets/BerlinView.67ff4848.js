@@ -1,1 +1,0 @@
-import{o as e,c as t,_ as r}from"./index.63d09ec7.js";const c={__name:"BerlinView",setup(n){return(a,s)=>(e(),t(r,{url:"https://www.eventbrite.de/d/germany--berlin/events--this-weekend/?page="}))}};export{c as default};

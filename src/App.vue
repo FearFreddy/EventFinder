@@ -7,9 +7,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
       <h1>Find events in and around...</h1>
       <nav>
-        <RouterLink to="/">Stuttgart</RouterLink>
-        <RouterLink to="/offenburg">Offenburg</RouterLink>
-        <RouterLink to="/berlin">Berlin</RouterLink>
+        <RouterLink to="/EventFinder/">Stuttgart</RouterLink>
+        <RouterLink to="/EventFinder/offenburg">Offenburg</RouterLink>
+        <RouterLink to="/EventFinder/berlin">Berlin</RouterLink>
       </nav>
     </div>
   </header>

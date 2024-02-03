@@ -5,12 +5,12 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/EventFinder/',
       name: 'stuttgart',
       component: StuttgartView
     },
     {
-      path: '/offenburg',
+      path: '/EventFinder/offenburg',
       name: 'offenburg',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('../views/OffenburgView.vue')
     },
     {
-      path: '/berlin',
+      path: '/EventFinder/berlin',
       name: 'berlin',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
